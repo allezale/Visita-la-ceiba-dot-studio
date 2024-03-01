@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+
+
+body{
+background-color: #F7F6F2;
+font-family: 'Roboto', sans-serif;
+}
+
+h1{
+	font-family: 'Open Sans', sans-serif;
+}
+
+header{
+	background-color: #eda300;
+}
+
+header img{
+	margin-left: 90px;
+}
+
+#hero{
+	background-image: url("../img/hero_back.jpg");
+	background-size: cover;
+  	background-position: center;
+  	padding: 80px 0;
+  	text-align: center;
+}
+
+.img-fluid {
+  	max-width: 100%;
+}
+
+.logo-hero {
+ 	 max-width: 380px;
+}
+
+#hero p{
+	color: #F7F6F2;
+	text-align: center;
+	font-size: 20px;
+	font-weight: 400;
+	line-height: normal;
+	margin-top: 30px;
+}
+
+#recomendaciones-header{
+	color: #1C93AF;
+	text-align: center;
+	font-size: 38px;
+	font-weight: 700;
+	line-height: normal;
+	justify-content: center;
+}
+
+
+
+.recomendacion {
+  	position: relative;
+}
+
+.texto-superpuesto {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); /* recuerden que este es para centrar el texto al centro! */
+  padding: 10px;
+  transition: font-size 0.3s; /* y este es la transicion suave */ 
+	
+	
+	text-align: center;
+	color: #FEF3DF;
+	font-family: "Product Sans";
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+}
+
+.recomendacion:hover .texto-superpuesto {
+  	font-size: 40px;
+}
+
+.recomendacion:hover img {
+	border: 6px solid #2994af;
+}
+
+#banner{
+	margin: 70px 0 20px;
+}
+
+#eee{
+background-image: url("../img/eee_img.jpg");
+background-size: cover;
+background-position: center;
+padding-top: 5%;
+padding-bottom: 15%;
+
+}
+
+#eee h3{
+color: #FFF;
+font-family: "Product Sans";
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+text-transform: uppercase;
+text-align: center;
+height: 50px;
+}
+
+
+
+footer{
+	background-color: #0E4047;
+	padding: 20px 0 15px;
+	color: #f7f6f2;
+	font-family: 'Montserrat', sans-serif;
+}
+
+#imagen-contacto{
+	width: 350px;
+	padding: 60px 0;
+	
+}
+
+.lista-imagenes, .lista-palabras {
+  list-style: none;
+  padding: 30px ;
+
+}
+
+.lista-imagenes img {
+width: 35px;
+margin: 8px 0;
+}
+
+.lista-imagenes {
+  text-align: center;
+}
+
+.lista-palabras {
+  text-align: right;
+color: #F7F6F2;
+font-family: "Product Sans";
+font-size: 18px;
+font-weight: 500;
+	line-height: 30px;
+}
+
+.linea-divisoria {
+  border-top: 2px solid #FFFFFF;
+text-align: center;
+}
+
+.frase-small {
+color: #F7F6F2;
+text-align: center;
+font-family: "Product Sans";
+font-size: 16px;
+font-weight: 400;
+letter-spacing: 5px;
+}
+
+#logo-footer{
+	width: 350px;
+}
+
+#imagen-contacto {
+    text-align: center;
+}
+
+#imagen-contacto .list-inline-item:not(:first-child) {
+    margin-left: 16px;
+}
+
+footer a{
+    text-decoration: none;
+}
+
+#dot-studio-logo {
+    max-width: 100px;
+    height: auto;
+}
+
+footer .container{
+    text-align: center;
+}
+
+#imagen-contacto .list-inline-item a i {
+    font-size: 40px;
+}
+
+
+
+
+/* ATRACTIVOS */ 
+
+#hero-atractivos {
+    background-image: url("../img/banner_atractivos.jpg");
+    background-size: cover;
+    background-position: center;
+	padding: 80px 0;
+}
+
+
+#textcultura h2{
+	
+color: #F7F6F2;
+text-align: center;
+font-family: "Product Sans";
+font-size: 53px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0px;
+	
+}
+
+
+#textcultura{
+	background-image: url("../img/garifunas_atractivos.jpg");
+    background-size: cover;
+    background-position: center;
+	padding: 100px 0;
+	
+	
+}
+
+#textcultura p{
+	margin-top: 0;
+	color: #F7F6F2;
+	text-align: center;
+	font-family: "Inter";
+	font-size: 35px;
+	font-weight: 600;
+	line-height: normal;	
+}
+
+
+#cultura{
+	padding-top: 50px;
+	
+}
+
+
+#cultura p{
+	
+	color: #000;
+	text-align: justify;
+	font-size: 28px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+
+	
+}
+
+
+#textplaya h2{
+color: #F7F6F2;
+text-align: center;
+font-family: "Product Sans";
+font-size: 53px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0px;
+	
+	
+}
+
+#textplaya{
+	
+	background-image: url("../img/playa_banner.jpg");
+    background-size: cover;
+    background-position: center;
+	padding: 100px 0;
+	
+}
+
+#textplaya p{
+	margin-top: 0;
+	color: #F7F6F2;
+	text-align: center;
+	font-family: "Inter";
+	font-size: 35px;
+	font-weight: 600;
+	line-height: normal;
+}
+
+
+#playas p{
+	color: #000;
+	text-align: justify;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding-bottom: 20px;
+}
+
+#playas{
+	padding-bottom: 100px;
+}
+
+#textactividades h2{
+color: #F7F6F2;
+text-align: center;
+font-family: "Product Sans";
+font-size: 53px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0px;
+	
+}
+
+#textactividades{
+	background-image: url("../img/actividades.jpg");
+    background-size: cover;
+    background-position: center;
+	padding: 100px 0;
+}
+
+#textactividades p{
+	margin-top: 0;
+	color: #F7F6F2;
+	text-align: center;
+	font-family: "Inter";
+	font-size: 35px;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#actividades{
+	padding-bottom: 100px;
+}
+
+#textrestaurantes h2{
+color: #F7F6F2;
+text-align: center;
+font-family: "Product Sans";
+font-size: 53px;
+font-weight: 700;
+line-height: normal;
+margin-bottom: 0px;
+	
+}
+
+#textrestaurantes{
+	
+	background-image: url("../img/restaurantes.jpg");
+    background-size: cover;
+    background-position: center;
+	padding: 100px 0;
+	
+}
+
+#textrestaurantes p{
+	margin-top: 0;
+	color: #F7F6F2;
+	text-align: center;
+	font-family: "Inter";
+	font-size: 35px;
+	font-weight: 600;
+	line-height: normal;
+}
+
+#restaurantes p{
+	
+	color: #000;
+	text-align: justify;
+	font-size: 26px;
+	font-weight: 400;
+	letter-spacing: 2px;
+	padding-bottom: 20px;;
+}
+
+#restaurantes{
+	
+	padding-bottom: 100px;
+}
+
+
+
+/* pagina de contacto */
+
+#contacto {
+    text-align: center;
+    margin-top: 90px;
+    margin-bottom: 100px; 
+}
+
+#contacto h2{
+    color: #053F49;
+    font-size: 55px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 20px;
+}
+
+#contacto i{
+   color: #1C93AF;
+   font-size: 140px;
+
+}
+
+#contacto i:hover{
+color: #073343;
+}
+
+#contacto p{
+    color: #053F49;
+    text-align: center;
+   font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: normal;
+	margin-top: 25px;
+}
+
+
+
+
+	
+
+
+    
+
+		
