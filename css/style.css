@@ -24,7 +24,7 @@ header img{
 	background-image: url("../img/hero_back.jpg");
 	background-size: cover;
   	background-position: center;
-  	padding: 80px 0;
+  	padding: 5% 0;
   	text-align: center;
 }
 
@@ -33,13 +33,13 @@ header img{
 }
 
 .logo-hero {
- 	 max-width: 380px;
+ 	 max-width: 45%;
 }
 
 #hero p{
 	color: #F7F6F2;
 	text-align: center;
-	font-size: 20px;
+	font-size: 90%;
 	font-weight: 400;
 	line-height: normal;
 	margin-top: 30px;
@@ -143,12 +143,12 @@ margin: 8px 0;
 }
 
 .lista-palabras {
-  text-align: right;
+text-align: right;
 color: #F7F6F2;
 font-family: "Product Sans";
 font-size: 18px;
 font-weight: 500;
-	line-height: 30px;
+line-height: 30px;
 }
 
 .linea-divisoria {
@@ -166,7 +166,7 @@ letter-spacing: 5px;
 }
 
 #logo-footer{
-	width: 350px;
+	width: 70%;
 }
 
 #imagen-contacto {
@@ -182,7 +182,7 @@ footer a{
 }
 
 #dot-studio-logo {
-    max-width: 100px;
+    max-width: 10%;
     height: auto;
 }
 
@@ -203,7 +203,7 @@ footer .container{
     background-image: url("../img/banner_atractivos.jpg");
     background-size: cover;
     background-position: center;
-	padding: 80px 0;
+	padding: 10% 0;
 }
 
 
@@ -224,7 +224,7 @@ margin-bottom: 0px;
 	background-image: url("../img/garifunas_atractivos.jpg");
     background-size: cover;
     background-position: center;
-	padding: 100px 0;
+	padding: 10% 0;
 	
 	
 }
@@ -276,7 +276,7 @@ margin-bottom: 0px;
 	background-image: url("../img/playa_banner.jpg");
     background-size: cover;
     background-position: center;
-	padding: 100px 0;
+	padding: 10% 0;
 	
 }
 
@@ -319,7 +319,7 @@ margin-bottom: 0px;
 	background-image: url("../img/actividades.jpg");
     background-size: cover;
     background-position: center;
-	padding: 100px 0;
+	padding: 10% 0;
 }
 
 #textactividades p{
@@ -340,7 +340,7 @@ margin-bottom: 0px;
 color: #F7F6F2;
 text-align: center;
 font-family: "Product Sans";
-font-size: 53px;
+font-size: 48px;
 font-weight: 700;
 line-height: normal;
 margin-bottom: 0px;
@@ -352,7 +352,7 @@ margin-bottom: 0px;
 	background-image: url("../img/restaurantes.jpg");
     background-size: cover;
     background-position: center;
-	padding: 100px 0;
+	padding: 10% 0;
 	
 }
 
@@ -361,7 +361,7 @@ margin-bottom: 0px;
 	color: #F7F6F2;
 	text-align: center;
 	font-family: "Inter";
-	font-size: 35px;
+	font-size: 30px;
 	font-weight: 600;
 	line-height: normal;
 }
@@ -422,8 +422,196 @@ color: #073343;
 
 
 
+/* pagina de galeria */
 
+#hero-galeria{
+background-image: url("../img/hero_galeria.jpg");
+background-size: cover;
+background-position: center;
+padding: 10% 0;
+}
+
+#hero-galeria img{
+max-width: 55%;
+height: auto;
+}
+
+#conoce-texto-galeria {
+color: #057CA2;
+text-align: center;
+font-family: 'Montserrat';
+font-size: 75px;
+font-weight: 400;
+}
+
+#masde-texto-galeria{
+color: #057CA2;
+text-align: center;
+font-family: 'Montserrat';
+font-size: 60px;
+font-style: italic;
+font-weight: 400;
+line-height: 15px;
+}
+
+#ceiba-texto-galeria{
+color: #057CA2;
+text-align: center;
+font-family: 'Montserrat';
+font-size: 80px;
+font-weight: 700;	
+}
+
+#conoce-mas img{
+max-width: 100%;
+
+}
+
+#conoce-mas p{
+color: #073343;
+text-align: center;
+font-family: 'Montserrat';
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+margin: 40px;
+}
+
+#galeria-slides h2{
+    text-align: center;
+ 
+	margin: 0;
+	color: #073343;
+	font-family: "Product Sans";
+	font-size: 40px;;
+	font-weight: 700;
+	padding: 10px 0;
+	text-transform: uppercase;
+	height: 40px;
+}
+
+#galeria-slides h4{
+    text-align: center;
+	margin: 0;
+	color: #073343;
+	font-family: "Product Sans";
+	font-size: 60px;;
+	font-weight: 700;
+	padding: 10px 0;
+	text-transform: uppercase;
+}
+
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+}
+
+.nacional h2 {
+    text-align: center;
+	color: #073343;
+	font-family: "Product Sans";
+	font-size: 60px;;
+	font-weight: 700;
+	text-transform: uppercase;
+
+}
+
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.ceiba_con_fondo{
+	background-image: url("../img/fondo-playita-2.jpg");
+	background-size: cover;
+    background-position: center;
+	padding: 50px 0;
 	
+}
+
+
+#hero-informacion {
+    background-image: url("../img/info-back-hero.jpg");
+    background-size: cover;
+    background-position: center;
+	padding: 10% 0;
+}
+
+#geografia h2{
+color: #F7F6F2;
+text-align: center;
+font-family: "Product Sans";
+font-size: 55px;
+font-weight: 700;
+}
+
+#geografia h4{
+color: #F7F6F2;
+text-align: center;
+font-family:"Product Sans";
+font-size: 30px;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase
+}
+
+#geografia{
+background-image: url("../img/geo-back-2.jpg");
+background-size: cover;
+ background-position: center;
+padding: 3% 0;
+}
+
+#geografia p{
+color: #F7F6F2;
+text-align: center;
+font-family:'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 600;
+text-transform: uppercase
+}
+
+#clima-condiciones h2{
+color: #F7F6F2;
+text-align: center;
+font-family: "Product Sans";
+font-size: 55px;
+font-weight: 700;
+}
+
+#clima-condiciones h4{
+color: #F7F6F2;
+text-align: center;
+font-family:"Product Sans";
+font-size: 30px;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase
+}
+
+#clima-condiciones{
+	background-image: url("../img/clima-back.jpg");
+	background-size: cover;
+ 	background-position: center;
+	padding: 3% 0;
+}
+
+#clima-condiciones p{
+color: #F7F6F2;
+text-align: center;
+font-family:'Montserrat', sans-serif;
+font-size: 12px;
+font-weight: 600;
+text-transform: uppercase
+}
+
 
 
     
