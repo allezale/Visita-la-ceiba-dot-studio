@@ -582,7 +582,7 @@ text-transform: uppercase
 color: #F7F6F2;
 text-align: center;
 font-family: "Product Sans";
-font-size: 55px;
+font-size: 48px;
 font-weight: 700;
 }
 
@@ -612,8 +612,45 @@ font-weight: 600;
 text-transform: uppercase
 }
 
+#hero-planea {
+    background-image: url("../img/hero_planea_back.jpg");
+    background-size: cover;
+    background-position: center;
+	padding: 8% 0;
+}
 
+#hero-planea p{
+color: #F7F6F2;
+text-align: center;
+font-family: Montserrat;
+font-size: 18px;
+font-weight: 500;
+line-height: normal;
+}
 
-    
+#planea-tu-viaje h2{
+color: #1C93AF;
+text-align: center;
+font-family: 'Montserrat';
+font-size: 55px;
+font-weight: 700;
+}
 
-		
+#planea-tu-viaje h4{
+color: #024B5C;
+text-align: center;
+font-family: 'Montserrat';
+font-size: 28px;
+font-style: normal;
+font-weight: 700;
+}
+   
+#planea-tu-viaje img{
+	   width: 100%;
+       height: auto;
+	margin-bottom: 10px;
+}
+
+.hoteles-tag img{
+	margin-bottom: 10px;
+}
